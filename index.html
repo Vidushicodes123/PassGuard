@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>PassGuard</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>PassGuard</h1>
+<p class="tagline">Smart Password Strength Analyzer</p>
+
+<div class="password-box">
+
+<input type="password" id="password" placeholder="Enter your password">
+
+<button id="toggle">👁</button>
+
+</div>
+
+<div class="strength-bar">
+<div id="strength-fill"></div>
+</div>
+
+<p id="strength-text"></p>
+
+<div class="rules">
+
+<p id="length">✖ At least 8 characters</p>
+<p id="upper">✖ Contains uppercase letter</p>
+<p id="number">✖ Contains number</p>
+<p id="symbol">✖ Contains special character</p>
+
+</div>
+
+<div class="tip">
+<p id="tip-text"></p>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
